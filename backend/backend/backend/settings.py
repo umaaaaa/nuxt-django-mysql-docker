@@ -88,11 +88,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'db_name',
+        'NAME': 'dev_nuxt_django_db',
         'USER': 'root',
-        'HOST': '127.0.0.1',
+        'HOST': '192.168.0.2',
         'PORT': '3306',
-        'PASSWORD': 'mysql',
+        'PASSWORD': 'dev_nuxt_django_pw',
         'ATOMIC_REQUESTS': True,
         'OPTIONS': {
             'charset': 'utf8mb4'

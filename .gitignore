@@ -4,3 +4,5 @@ db/datadir/
 frontend/.bash_history
 frontend/.config
 frontend/frontend/.nuxt 
+backend/.bash_history
+backend/.cache
